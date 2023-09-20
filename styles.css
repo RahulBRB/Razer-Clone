@@ -9,10 +9,10 @@ body a{
     text-decoration: none !important;
 }
 body a:link {
-    color:#bebebe;
+    color:#d2d2d2;
 }
 body a:visited {
-    color:#656565;
+    color:#a9a7a7;
 
 }
 body a:hover{
@@ -59,6 +59,33 @@ body a:active {
     margin-left:61px;
     margin-right:0px;
 }
+
+/*Below navbar*/
+.below-navbar p{
+    color: #ffffff;
+    background-color: #555555;
+    padding:14px;
+    font-family: 'Roboto', sans-serif !important;
+    height:auto;
+    font-size: 14px;
+    margin-top:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
