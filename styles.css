@@ -65,8 +65,19 @@ body a:active {
 
 /*MEDIA QUERY*/
 @media screen and (min-width:150px) and (max-width:980px){
+    .navbar{
+        text-align: center;
+    }
     .navbar li{
         display: none;
     }
-
+    .navbar img{
+        margin-left:15%;
+    }
+    .search{
+        display:none;
+    }
+    .cart{
+        margin-left:150px;
+    }
 }
