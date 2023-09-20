@@ -72,7 +72,7 @@ body a:active {
 
 
 /*Hero image one*/
-.hero-image-one {
+.hero-image-one-desktop {
     margin-top:-34px;
     color:#ffffff;
     width:100%;
@@ -86,35 +86,36 @@ body a:active {
 
 }
 
-.hero-image-one h1 {
+.hero-image-one-desktop h1 {
     padding-top:4%;
     font-size:50px;
 }
-.hero-image-one h2{
+.hero-image-one-desktop h2{
     font-weight:lighter;
     margin-top:-25px;
 
 }
-.hero-image-one p{
+.hero-image-one-desktop p{
     font-size: 21px;
+    width:8%;
     
 }
 
-.hero-image-one p:hover{
+.hero-image-one-desktop p:hover{
     cursor:pointer;
+    border-bottom:2px solid white;
+
 }
-.hero-image-one i{
+.hero-image-one-desktop i{
     color: rgb(4, 191, 4);
     font-size: 12px;
     margin-left: 0.2%;
 }
 
-
-
-
-
-
-
+/*Hero image one mobile*/
+.hero-image-one-mobile{
+    display:none;
+}
 
 
 
@@ -139,4 +140,53 @@ body a:active {
     .cart{
         margin-left:150px;
     }
+  
+    
+    .hero-image-one-desktop{
+        display:none;
+    }
+    .hero-image-one-mobile{
+        display:block;
+    }
+    .hero-image-one-mobile {
+        margin-top:-20px;
+        color:#ffffff;
+        width:100%;
+        height:500px;
+        font-family: 'Roboto', sans-serif !important;
+        background-image: url('assets/back-to-school-homepage-mobile2x.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    
+    
+    }
+    
+    .hero-image-one-mobile h1 {
+        padding-top:15%;
+        font-size:30px;
+    }
+    .hero-image-one-mobile h2{
+        font-size:17px;
+        font-weight:lighter;
+        margin-top:-10px;
+    
+    }
+    .hero-image-one-mobile p{
+        font-size: 17px;
+        width:20%;
+        
+    }
+    
+    .hero-image-one-mobile p:hover{
+        cursor:pointer;
+        border-bottom:1px solid white;
+    
+    }
+    .hero-image-one-mobile i{
+        color: rgb(4, 191, 4);
+        font-size: 12px;
+        margin-left: 0.2%;
+    }
+    
 }
