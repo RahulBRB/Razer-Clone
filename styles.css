@@ -2,3 +2,7 @@ body{
     font-family: 'Roboto', 'Noto Sans', sans-serif;
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+
+body a{
+    text-decoration: none;
+}
