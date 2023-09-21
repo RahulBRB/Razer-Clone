@@ -222,7 +222,7 @@ body a:active {
 
 /*FOURTH CONTAINER*/
 .forth-container{
-    height:570px;
+    height:auto;
     display:flex;
     flex-wrap: wrap;
     color:#ffffff;
@@ -300,6 +300,16 @@ body a:active {
     font-size: 10px;
     margin-left: 0.2%;
 }
+
+/*FOOTER BEGINS */
+.footer{
+    height:371px;
+    width:100%;
+    background-color: #111111;
+}
+
+
+
 
 
 
@@ -482,7 +492,7 @@ body a:active {
     }
     /*containe with 6 images*/
     .forth-container{
-        height:570px;
+        height:auto;
         display:flex;
         flex-wrap: wrap;
         color:#ffffff;
