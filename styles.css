@@ -3,6 +3,7 @@ body{
     margin:0;
     padding:0;
     background-color: #222222;
+    overflow-x: 0;
 }
 
 body a{
@@ -359,8 +360,24 @@ body li{
     border-bottom:1px solid #a9a7a78f;
     
 }
-
-
+.last-footer{
+    margin-top:1%;
+    background-color: #111111;
+    height:auto;
+    padding-bottom: 6px;
+}
+.last-footer p{
+    color:#999999;
+    font-size: 12px;
+}
+.last-left{
+    display: flex;
+}
+.last-footer li{
+    font-size: 12px;
+    display: inline-block;
+    padding:10px;
+}
 
 
 
@@ -612,5 +629,11 @@ body li{
     }
     .containerwithsix{
         display:none;
+    }
+    .last-footer{
+        margin-top:-10px;
+    }
+    .last-footer p{
+        padding-top:20px;
     }
 }
