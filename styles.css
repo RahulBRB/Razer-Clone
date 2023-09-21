@@ -173,14 +173,134 @@ body a:active {
 
 
 
+/*Hero image three*/
+.hero-image-three-desktop {
+    margin-top:-23px;
+    color:#ffffff;
+    width:100%;
+    height:700px;
+    font-family: 'Roboto', sans-serif !important;
+    background-image: url('assets/razercon2023-homepage-large-2x.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom:12px;
+
+}
+
+.hero-image-three-desktop h1 {
+    padding-top:4%;
+    font-size:50px;
+}
+.hero-image-three-desktop h2{
+    font-weight:lighter;
+    margin-top:-25px;
+
+}
+.hero-image-three-desktop p{
+    font-size: 21px;
+    width:9%;
+    
+}
+
+.hero-image-three-desktop p:hover{
+    cursor:pointer;
+    border-bottom:2px solid white;
+
+}
+.hero-image-three-desktop i{
+    color: rgb(4, 191, 4);
+    font-size: 12px;
+    margin-left: 0.2%;
+}
+
+/*Hero image two mobile*/
+.hero-image-three-mobile{
+    display:none;
+}
 
 
+/*FOURTH CONTAINER*/
+.forth-container{
+    height:570px;
+    display:flex;
+    flex-wrap: wrap;
+    color:#ffffff;
+    width:100%;
+    font-family: 'Roboto', sans-serif !important;
+  
+}
+.forth-container .img{
+    border:2px solid white;
+    height:570px;
+    width:49%;
+    margin: 4px;
+}
+
+.img .inline-icon{
+    text-align:center;
+    align-items:center;
+    display:flex;
+    justify-content: center;
+}
+.image-one {
+    background-image: url('assets/dolce-gabbana-tease-b-950x580-desktop.webp');
+    background-position: center;
+}
+
+.image-two {
+    background-image: url('assets/razer-viper-v3-hyperspeed-b-950x580-desktop.webp');
+    background-position: center;
+}
+
+.image-three {
+    background-image: url('assets/razer-kitsune-950x580-desktop.webp');
+    background-position: center;
+}
+
+.image-four {
+    background-image: url('assets/mercury-blade16-blade18-b-950x580-desktop.webp');
+    background-position: center;
+}
+.image-four p{
+    width:18% !important;
+}
+.image-five {
+    background-image: url('assets/razer-blackshark-v2-hyperspeed-b-950x580-desktop.webp');
+    background-position: center;
+}
+.image-six {
+    background-image: url('assets/razer-edge-b-950x580-desktop.webp');
+    background-position: center;
+}
 
 
+.block-desktop h1 {
+    padding-top:4%;
+    font-size:38px;
+}
+.block-desktop h2{
+    font-weight:lighter;
+    margin-top:-15px;
+    font-size: 18px;
 
+}
+.block-desktop p{
+    font-size: 15px;
+    width:14%;
+    
+}
 
+.block-desktop p:hover{
+    cursor:pointer;
+    border-bottom:2px solid white;
 
-
+}
+.block-desktop i{
+    color: rgb(4, 191, 4);
+    font-size: 10px;
+    margin-left: 0.2%;
+}
 
 
 
@@ -308,6 +428,55 @@ body a:active {
     justify-content: center;
     }
     .hero-image-two-mobile i{
+        color: rgb(4, 191, 4);
+        font-size: 12px;
+        margin-left: 0.2%;
+    }
+
+    /*iamge 3*/
+    .hero-image-three-desktop{
+        display:none;
+    }
+    .hero-image-three-mobile{
+        display:block;
+    }
+    .hero-image-three-mobile {
+        margin-top:-10px;
+        color:#ffffff;
+        width:100%;
+        height:500px;
+        font-family: 'Roboto', sans-serif !important;
+        background-image: url('assets/razercon2023-small-2x.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 13px;
+    
+    }
+    
+    .hero-image-three-mobile h1 {
+        padding-top:15%;
+        font-size:30px;
+    }
+    .hero-image-three-mobile h2{
+        font-size:17px;
+        font-weight:lighter;
+        margin-top:-10px;
+    
+    }
+    .hero-image-three-mobile p{
+        font-size: 17px;
+        width:23%;
+        
+    }
+    
+    .hero-image-three-mobile p:hover{
+        cursor:pointer;
+        border-bottom:1px solid white;
+    
+    }
+   
+    .hero-image-three-mobile i{
         color: rgb(4, 191, 4);
         font-size: 12px;
         margin-left: 0.2%;
