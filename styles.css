@@ -397,13 +397,13 @@ body li{
         display: none;
     }
     .navbar img{
-        margin-left:15%;
+        margin-left:10%;
     }
     .search{
         display:none;
     }
     .cart{
-        margin-left:150px;
+        padding-left:20%;
     }
   
     
@@ -635,5 +635,8 @@ body li{
     }
     .last-footer p{
         padding-top:20px;
+    }
+    body{
+        overflow-x: 0;
     }
 }
