@@ -318,7 +318,7 @@ body li{
 .contain-1, .contain-2,.contain-3,.contain-4,.contain-5{
     border:1px solid white;
     width:179px;
-    height:270px;
+    height:auto;
     margin-top:25px;
 }
 .contain-1{
@@ -329,20 +329,30 @@ body li{
     border:1px solid white;
     margin-top:25px;
     width:289px;
-    height:270px;
+    height:auto;
 
 }
 
-.contain-1, .contain-2,.contain-3,.contain-4,.contain-5,.contain-6 p{
+.contain-1, .contain-2,.contain-3,.contain-4,.contain-5 p{
     color:#ffffff;
     font-size: 12px;
-}
-.contain-1, .contain-2,.contain-3,.contain-4,.contain-5,.contain-6 a{
-    font-size: 12px;
-    display: block;
-    line-height: 12px !important;
+    padding-left: 10px;
+    padding-top:10px;
 }
 
+.containerwithsix li{
+    color:#ffffff;
+    font-size: 12px;
+    margin-left: -40px ;
+    padding-bottom: 15px;
+}
+
+
+
+
+.contain-5 i{
+    font-size: 20px;
+}
 .contain-6{
     color:#44d62c;
     font-size: 14.4px;
@@ -597,5 +607,10 @@ body li{
     background-image: url('assets/razer-edge-b-480x615-mobile.jpg') !important;
     background-position: center;
 }
-
+    .footer{
+        height:auto;
+    }
+    .containerwithsix{
+        display:none;
+    }
 }
