@@ -11,6 +11,10 @@ Join us on this thrilling journey as we recreate the magic of Razer for gaming e
 **Result**
 
 
+https://github.com/RahulBRB/Razer-Clone/assets/86495244/3b4a84ce-8fdb-4e40-af80-ff67a2ef7803
+
+
+
 **Contributing**
 Contributions to my projects are welcome! If you have any ideas, improvements, or bug fixes, please follow these steps:
 
