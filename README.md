@@ -3,12 +3,13 @@
 Welcome to the Razer Clone project! This endeavor is a meticulous replication of the renowned gaming hardware and software platform, Razer, undertaken as part of an immersive internship experience.
 
 🔨 Tech Stack: Frontend: HTML & CSS.<br>
-📚 Source Code: [https://github.com/YourGitHubUsername/Razer-Clone](https://github.com/RahulBRB/Razer-Clone)<br>
-🌐 Live Demo: https://razer-clone-demo-yourname.pages.dev<br>
+📚 Source Code: https://github.com/RahulBRB/Razer-Clone<br>
+🌐 Live Demo: https://razer-clone.pages.dev <br>
 
 Join us on this thrilling journey as we recreate the magic of Razer for gaming enthusiasts worldwide! 🎮🖱️💻
 
-**Screenshots**
+**Result**
+https://github.com/RahulBRB/Razer-Clone/assets/86495244/543e813a-60c1-4f19-9e2e-7d06991a7fe0
 
 **Contributing**
 Contributions to my projects are welcome! If you have any ideas, improvements, or bug fixes, please follow these steps:
